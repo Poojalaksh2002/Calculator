@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <table border="2" class="table" >
+        <caption><h1>Caluculator</h1></caption>
+        <tr>
+            <td colspan="3"><input id="result" type="text"></td>
+            <td><button onclick="ac()">AC</button></td>
+        </tr>
+        <tr cellpadding="">
+            <td><button class="btn-color" onclick="show('1')">1</button></td>
+            <td><button onclick="show('2')">2</button></td>
+            <td><button onclick="show('3')">3</button></td>
+            <td><button onclick="show('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="show('4')">4</button></td>
+            <td><button onclick="show('5')">5</button></td>
+            <td><button onclick="show('6')">6</button></td>
+            <td><button onclick="show('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="show('7')">7</button></td>
+            <td><button onclick="show('8')">8</button></td>
+            <td><button onclick="show('9')">9</button></td>
+            <td><button onclick="show('*')">*</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="show('0')">0</button></td>
+            <td><button onclick="show('%')">%</button></td>
+            <td><button onclick="show('/')">/</button></td>
+            <td><button onclick="finalRes()">=</button></td>
+        </tr>
+    </table>
+</body>
+</html>

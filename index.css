@@ -1,0 +1,24 @@
+.table{
+    margin: 75px 50px 100px 400px;
+    height: 400px;
+    width: 400px;
+    background-color:crimson;
+    border-color: black;
+    border-style: solid;
+}
+
+body{
+    background-color:plum;
+}
+button{
+    padding: 20px;
+    width: 100px;
+    font-size:larger; 
+    
+}
+input{
+    padding: 20px;
+    font-size: 30px;
+    width: 270px;
+    margin: 10px 10px 10px 10px;
+}
